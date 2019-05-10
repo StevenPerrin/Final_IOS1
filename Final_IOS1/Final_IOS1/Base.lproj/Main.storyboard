@@ -39,7 +39,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnq-Yk-u0A">
                                                 <rect key="frame" x="0.0" y="117" width="414" height="116"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egi-d2-tCN">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egi-d2-tCN">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="116"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="textColor"/>
@@ -233,6 +233,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="q7D-3p-P4T"/>
                     </view>
+                    <connections>
+                        <outlet property="Input" destination="egi-d2-tCN" id="Wpd-SJ-2hI"/>
+                        <outlet property="OutputDisplay" destination="xpt-x6-NPu" id="Gwp-LL-LHx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
